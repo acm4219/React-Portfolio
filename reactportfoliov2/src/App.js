@@ -7,8 +7,8 @@ import {
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
-import About from "./views/About";
-import Product from "./views/Product"
+import Contact from "./views/Contact";
+import Project from "./views/Project"
 
 function App() {
   return (
@@ -20,11 +20,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/about">
-            <About />
+          <Route path="/contact">
+            <Contact />
           </Route>
-          <Route path="/products/:id">
-            <Product />
+          <Route path="/projects/:id">
+            <Project />
           </Route>
         </Switch>
         </div>
