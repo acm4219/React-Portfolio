@@ -6,7 +6,7 @@ import ProjectCard from "../components/ProjectCard"
 function Home(){
     
     return (
-        <div>
+        <div className="bg-blue-200">
             <h1 className="font-bold text-2xl mb-3">
                 Recent Projects
             </h1>
@@ -14,7 +14,7 @@ function Home(){
            
            <ProjectCard 
              name= {projects[0].name}
-             image = {projects[0].images[0]}
+             image = {projects[0].images}
              description = {projects[0].description}
              link= {projects[0].link}
              github= {projects[0].github}              

@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Dad Jokes!",
         "description": "Do you ever feel that there aren't enough dad jokes in the world? Do you want to do your part to get more out there for people to see? Then the Dad Jokes! site is perfect for you. Add, rate and view other people's jokes with our intuitive bar of jokes. When you're done you can simply log out and come back later to see if the ratings have changed on your joke. You can become the Dadliest Dad out there with Dad Jokes!",
-        "images": "./assets/photoAssets/dadJokes1.JPG",
+        "images": "assets/photoAssets/dadJokes1.JPG",
         "link": "https://vast-gorge-32848.herokuapp.com/",
         "github": "https://github.com/acm4219/peony"
     },

@@ -12,10 +12,10 @@ import Contact from "./views/Contact";
 
 function App() {
   return (
-    <div className="relative pb-10 min-h-screen">
+    <div className="relative bg-blue-200 pb-10 min-h-screen">
      <Router>
        <Header />
-       <div className="p-3">
+       <div className="p-3 bg-blue-200">
         <Switch>
           <Route exact path="/">
             <Home />
