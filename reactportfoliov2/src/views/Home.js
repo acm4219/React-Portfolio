@@ -14,7 +14,44 @@ function Home(){
            
            <ProjectCard 
              name= {projects[0].name}
+             image = {projects[0].images[0]}
              description = {projects[0].description}
+             link= {projects[0].link}
+             github= {projects[0].github}              
+           />
+           <ProjectCard 
+             name= {projects[1].name}
+             description = {projects[1].description} 
+             link= {projects[1].link}
+             github= {projects[1].github}             
+           />
+           <ProjectCard 
+             name= {projects[2].name}
+             image = {projects[2].images[0]}
+             description = {projects[2].description} 
+             link= {projects[2].link}
+             github= {projects[2].github}             
+           />
+           <ProjectCard 
+             name= {projects[3].name}
+             image = {projects[3].images[0]}
+             description = {projects[3].description}
+             link= {projects[3].link}
+             github= {projects[3].github}              
+           />
+           <ProjectCard 
+             name= {projects[4].name}
+             image = {projects[4].images}
+             description = {projects[4].description} 
+             link= {projects[4].link}
+             github= {projects[4].github}             
+           />
+           <ProjectCard 
+             name= {projects[5].name}
+             image = {projects[5].images}
+             description = {projects[5].description}
+             link= {projects[5].link}
+             github= {projects[5].github}              
            />
        </div>
            

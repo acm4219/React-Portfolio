@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import Contact from "./views/Contact";
-import Project from "./views/Project"
+
 
 function App() {
   return (
@@ -22,9 +22,6 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-          </Route>
-          <Route path="/projects/:id">
-            <Project />
           </Route>
         </Switch>
         </div>
