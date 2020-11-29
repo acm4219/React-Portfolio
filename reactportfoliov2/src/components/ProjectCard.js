@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 function ProjectCard(props) {
     return(
@@ -19,7 +19,7 @@ function ProjectCard(props) {
             <br />
             <div className="flex-wrap" >
             <a href={props.link} className="bg-blue-500 hover:bg-blue-300 text-white p-2 flex justify-center w-md ">
-                Full Site
+                Deployed Application
             </a>
             <a href= {props.github} className="bg-blue-500 hover:bg-blue-300 text-white p-2 flex justify-center w-md">
                 Github Repo
