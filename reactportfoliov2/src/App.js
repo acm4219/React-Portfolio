@@ -17,7 +17,7 @@ function App() {
        <Header />
        <div className="p-3 bg-blue-200">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/React-Portfolio/">
             <Home />
           </Route>
           <Route path="/contact">
