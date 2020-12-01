@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/React-Portfolio/">
             <Home />
           </Route>
-          <Route path="/contact">
+          <Route path="/React-Portfolio/contact">
             <Contact />
           </Route>
         </Switch>
