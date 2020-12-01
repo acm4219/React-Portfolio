@@ -10,7 +10,7 @@ function ProjectCard(props) {
             </div>
             <br />
             <div>
-                <img alt={props.name} src={props.images} />
+                <img alt={props.name} src={process.env.PUBLIC_URL + props.images} />
             </div>
             <br />
             <div>
