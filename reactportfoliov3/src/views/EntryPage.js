@@ -1,12 +1,16 @@
 import React from "react";
 import Jumbotron from "../components/Jumbotron";
-import Footer from "../components/Footer"
+import "../styles/entrypage.css";
 
 function EntryPage(){
     return(
         <div>
+            <div className="container-fluid entrypage-bgimage">
             <Jumbotron />
-            <Footer />
+            <footer className="footer-contact">
+            &copy; Portfolio Version 3.0 Copyright 2020 
+            </footer>
+            </div>
         </div>
     )
 
